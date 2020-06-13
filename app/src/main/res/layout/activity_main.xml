@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/trendsBooks"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_color"
+        android:text="Popular Trends Books"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/myBooks"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_color"
+        android:text="My Favorite Books"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/trendsMovies"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_color"
+        android:text="Popular Trends Movies"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/myMovies"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_color"
+        android:text="My Favorite Movies"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/trendsSongs"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_color"
+        android:text="Popular Trends Songs"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/mySongs"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_color"
+        android:text="My Favorite Songs"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</LinearLayout>

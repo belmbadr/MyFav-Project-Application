@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFav</string>
+    <string name="q1"><u>What do Goodreads ratings mean?</u></string>
+    <string name="q2"><u>What are IMDb ratings?</u></string>
+</resources>
